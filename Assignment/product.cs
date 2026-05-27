@@ -33,19 +33,19 @@ namespace Assignment
         {
             if (discountPercent > 100)
             {
-               Console.WriteLine("Discount can't exceed 100%");
+                Console.WriteLine("Discount can't exceed 100%");
                 return;
             }
             this.DiscountPercent = discountPercent;
             this.DiscountedPrice = this.Price - this.Price * discountPercent / 100;
         }
 
-        public void AddQuantity (int quantity)
+        public void AddQuantity(int quantity)
         {
             this.Quantity += quantity;
         }
 
-        public void DisplayInfo ()
+        public void DisplayInfo()
         {
             Console.WriteLine("Product: " + this.Name);
             Console.WriteLine("Price: " + this.Price);
