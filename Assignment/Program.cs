@@ -16,8 +16,7 @@
                 Quantity = 2000,
             };
 
-            
-
+           
             product.AddQuantity(4);
             product.Discount(10);
 
